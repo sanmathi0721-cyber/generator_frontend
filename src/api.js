@@ -1,4 +1,4 @@
-const API_BASE = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API_BASE = process.env.REACT_APP_API_URL || "delightful-blessing-production-4318.up.railway.app";
 
 export async function generate(payload) {
   const res = await fetch(`${API_BASE}/generate`, {
