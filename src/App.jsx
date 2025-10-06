@@ -7,7 +7,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const BACKEND_URL = "https://ai-content-generator-9.onrender.com";
+  const BACKEND_URL = "delightful-blessing-production-4318.up.railway.app";
 
   const handleGenerate = async () => {
     if (!prompt.trim()) {
